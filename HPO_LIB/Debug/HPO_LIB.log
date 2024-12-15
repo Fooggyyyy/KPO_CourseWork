@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  HPO_LIB.cpp
+D:\HPO-2024\HPO_LIB\HPO_LIB.cpp(31,14): warning C4244: =: преобразование "double" в "__int64", возможна потеря данных
+  (компиляция исходного файла "/HPO_LIB.cpp")
+  
+D:\HPO-2024\HPO_LIB\HPO_LIB.cpp(38,10): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+  (компиляция исходного файла "/HPO_LIB.cpp")
+  
+  HPO_LIB.vcxproj -> D:\HPO-2024\Debug\HPO_LIB.lib

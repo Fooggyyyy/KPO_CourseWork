@@ -1,0 +1,3 @@
+﻿  Assembling HPO.asm...
+HPO.asm(96): warning A6004: procedure argument or local not referenced : raficd
+  HPO_ASM.vcxproj -> D:\HPO-2024\Debug\HPO_ASM.exe
