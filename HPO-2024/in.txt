@@ -1,0 +1,87 @@
+integer function func(integer a){
+
+var integer d;
+var integer buf;
+if (a > 0){
+
+buf = a -1;
+d = func(buf) + a;
+}
+return d;
+}
+integer function rafic(integer d){
+var integer s;
+s = #000;
+return s;
+}
+
+
+line function machine(){
+var line res;
+print("call func of static lib in other func: ");
+res = "Machine says that he loves learning";
+return res;
+}
+
+
+main{
+var integer a;
+var integer b;
+var integer c;
+var integer d;
+var integer e;
+var line f;
+f = "ananas";
+
+a = #555;
+a = a + 01053;
+d = 555 + #01053;
+print("Test of logic Operations");
+if(a >= d){
+	var integer s;
+if (d <= #0){
+	print("Result is correct d = 0");
+	d=rafic(d);
+	}
+else{
+print("Result is uncorrect d = -1");
+d = #1;
+}
+print(d);
+}
+	
+print("Test cycles and nesting:");
+a = 01;
+if(a >= 1){
+	a = a - 01;
+	b = 10;
+	cycle(5){
+		cycle(2){
+			b = b - 5;
+			print(b);
+		}
+	}
+}
+print("Test func abs(b) and abs(b)=");
+b = abs(b);
+print(b);
+
+print("Test of func pow");
+c = 10000;
+print("An attempt to call pow(10000, 5 )");
+d = pow(c,5);
+print("result=");
+print (d);
+
+a = 4;
+print("vernut summu ot 0 do a");
+a = func(a);
+print(a);
+
+
+print("-----------------------------------------");
+print("Lets turn to machine.");
+f = machine();
+print(f);
+return 0;
+}

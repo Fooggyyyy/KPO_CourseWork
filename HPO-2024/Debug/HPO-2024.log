@@ -1,0 +1,20 @@
+﻿  CodeGeneration.cpp
+D:\HPO-2024\HPO-2024\CodeGeneration.cpp(184,15): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+  Div.cpp
+  Error.cpp
+  FST.cpp
+  Greibach.cpp
+  HPO-2024.cpp
+  IT.cpp
+  In.cpp
+  LT.cpp
+  LexAnaliz.cpp
+D:\HPO-2024\HPO-2024\LexAnaliz.cpp(288,21): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\HPO-2024\HPO-2024\LexAnaliz.cpp(298,21): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Log.cpp
+  MFST.cpp
+  Parm.cpp
+  SemAnaliz.cpp
+  stdafx.cpp
+  Создание кода...
+  HPO-2024.vcxproj -> D:\HPO-2024\Debug\HPO-2024.exe
